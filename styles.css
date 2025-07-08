@@ -1,0 +1,132 @@
+html{
+  background-color: #ffffff;
+opacity: 1;
+background-image: radial-gradient(circle at center center, #9a2e2e, #ffffff), repeating-radial-gradient(circle at center center, #9a2e2e, #9a2e2e, 13px, transparent 26px, transparent 13px);
+background-blend-mode: multiply;
+}
+h1 {
+  color: #ab1d1d;
+  font-size: 32px;
+  line-height: 60px;
+  background-color: white;
+  text-align:center;
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 80%;
+  margin: 20px auto;
+  border: 4px solid #ab1d1d;
+  border-radius: 30px;
+
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+section{
+  background-color: #8f2e2e;
+  width: 80%;
+  margin: 0px auto;
+  padding: 40px 0px;
+  display: flow-root;
+   font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight:bold;
+}
+
+article{
+  width: calc(100%/3 - 40px - 4px);
+  background-color: white;
+  float: left;
+  margin: 0px 20px;
+  border: 2px solid white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+article > p{
+  width: 100%;
+  height: 10px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+
+.hola{
+  color: #ab1d1d;
+  font-family:verdana;
+  width: 60%;
+  float: left;
+  border: 3px solid #ab1d1d;
+  border-radius: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 10%;
+}
+
+.chau{
+  background-color: solid #ab1d1d;
+  margin-right: 10%;
+}
+
+footer{
+  display: flow-root;
+  margin: 30px auto;
+  background-color:white;
+}
+
+footer > p{
+  width: 50%;
+  height: 20px;
+  text-align: center;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer >a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color:  #ab1d1d;
+  float: right;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-right: 80px;
+}
+
+
+article > img{
+  padding-top: 0px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+button{
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight:bold;
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 30%;
+  height: 25%;
+}
+
+button:hover{
+  background-color: #e36e14;
+}
+
+footer > a > i{
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 6px 0px;
+  color: white;
+}
